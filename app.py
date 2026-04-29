@@ -1,5 +1,5 @@
-def calculate(value):
-    return value + 10
+def divide_numbers(a, b):
+    return a / b
 
-result = calculate("hello")  # Error: can't add string and int
+result = divide_numbers(10, 0)  # Division by zero error
 print(result)

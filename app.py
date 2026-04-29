@@ -1,6 +1,5 @@
-def get_user_name(user):
-    return user.name
+def calculate(value):
+    return value + 10
 
-data = None
-result = get_user_name(data)
+result = calculate("hello")  # Error: can't add string and int
 print(result)

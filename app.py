@@ -1,5 +1,9 @@
+```python
 def divide_numbers(a, b):
+    if b == 0:
+        return "Cannot divide by zero"
     return a / b
 
-result = divide_numbers(10, 0)  # Division by zero error
+result = divide_numbers(10, 0)
 print(result)
+```
